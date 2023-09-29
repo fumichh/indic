@@ -1,0 +1,53 @@
+.navbar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+
+        li {
+            margin: 0 10px;
+            @media screen and (max-width:504px)  {
+                flex-wrap: wrap;
+            }
+
+            a {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: #737373;
+            }
+        }
+    }
+
+    &__icons {
+        img {
+            margin: 0 15px;
+            cursor: pointer;
+        }
+    }
+
+    &serach {
+        display: none;
+    }
+
+    &cart {
+        display: none;
+    }
+
+    &serach {
+        display: none;
+    }
+}

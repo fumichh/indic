@@ -1,0 +1,73 @@
+@media screen and (max-width: 480px) {
+  .consulting {
+    width: 414px;
+    height: 302px;
+  }
+}
+
+.consulting__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .consulting__content {
+    display: block;
+    position: relative;
+    left: 100px;
+  }
+}
+
+.consulting__titlee {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+@media screen and (max-width: 480px) {
+  .consulting__titlee {
+    width: 242px;
+  }
+}
+
+.consulting__text {
+  margin-bottom: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+@media screen and (max-width: 480px) {
+  .consulting__text {
+    width: 182px;
+  }
+}
+
+.consulting__btn {
+  max-width: 160px;
+  max-height: 58px;
+  margin-top: 42px;
+  padding: 15px 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #FFA62B;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}

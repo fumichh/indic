@@ -1,0 +1,166 @@
+.logo {
+  background: #FAFAFA;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 414px;
+    height: 955px;
+  }
+}
+
+.logo__content {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    position: relative;
+    top: 100px;
+    width: 414px;
+    margin-left: 0;
+  }
+}
+
+.logo__img {
+  margin-top: 100px;
+  margin-bottom: 157px;
+  max-width: 151px;
+  height: 71px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .logo__img {
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+}
+
+.logo__imgs {
+  margin-top: 120px;
+  margin-bottom: 157px;
+  max-width: 151px;
+  height: 42px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .logo__imgs {
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+}
+
+.logo__email {
+  display: flex;
+  background: #16697A;
+  border-radius: 2px;
+  max-width: 986px;
+  position: relative;
+  top: 60px;
+  left: 100px;
+  right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .logo__email {
+    width: 100%;
+    height: 218px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 130px;
+  }
+}
+
+.logo__emailtitle {
+  width: 100%;
+  max-width: 358px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-right: 180px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px) {
+  .logo__emailtitle {
+    width: 268px;
+    text-align: center;
+  }
+}
+
+.logo__emailbtn {
+  width: 100%;
+  margin-top: 33px;
+  max-width: 450px;
+  max-height: 58px;
+  padding: 15px 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .logo__emailbtn {
+    width: 339px;
+    margin-left: 30px;
+    margin-top: 0;
+  }
+}
+
+.logo__emailbtns {
+  padding: 45px 22px;
+  margin-top: 33px;
+  max-width: 117px;
+  max-height: 58px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #FFA62B;
+  border: 1px solid #E6E6E6;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  right: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo__emailbtns {
+    width: 114px;
+    position: relative;
+    right: 0;
+    left: 280px;
+    margin-top: 0;
+    bottom: 58px;
+  }
+}

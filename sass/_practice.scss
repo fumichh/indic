@@ -1,0 +1,115 @@
+.practice {
+    background: #FAFAFA;
+
+    @media screen and (max-width:480px) {
+        height: 1898px;
+        width: 414px;
+
+    }
+
+    &__title {
+        padding-top: 121px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        max-width: 721px;
+        margin-left: 450px;
+
+        @media screen and (max-width:480px) {
+            width: 225px;
+            height: 80px;
+            margin-left: 0;
+            position: relative;
+            left: 120px;
+            padding-bottom: 10px;
+
+        }
+
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+        max-width: 470px;
+        margin-left: 400px;
+        margin-top: 10px;
+        margin-bottom: 45px;
+
+        @media screen and (max-width:480px) {
+            width: 225px;
+            height: 80px;
+            margin-left: 0;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+    }
+
+    &__content {
+        padding-bottom: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width:480px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 40px;
+            position: relative;
+            top: 100px;
+        }
+    }
+
+    &__row {
+        height: 100vh;
+        width: 100%;
+        max-width: 238px;
+        max-height: 321px;
+        padding-top: 30px;
+        background: #FFFFFF;
+    }
+
+    &__rowtitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        max-width: 160px;
+        padding-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    &__rowtext {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #737373;
+        width: 190px;
+
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__img {
+        height: 148px;
+        width: 238px;
+    }
+}

@@ -1,0 +1,163 @@
+@media screen and (max-width: 480px) {
+  .trusted {
+    width: 414px;
+    height: 1493px;
+  }
+}
+
+.trusted__title {
+  padding-top: 100px;
+  margin-bottom: 15px;
+  max-width: 491px;
+  margin-left: 400px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+@media screen and (max-width: 480px) {
+  .trusted__title {
+    width: 360px;
+    height: 171px;
+    margin-left: 0;
+    position: relative;
+    left: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.trusted__text {
+  max-width: 511px;
+  margin-left: 400px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .trusted__text {
+    width: 225px;
+    height: 80px;
+    margin-left: 0;
+    position: relative;
+    left: 90px;
+    top: 100px;
+  }
+}
+
+.trusted__content {
+  display: flex;
+}
+
+@media screen and (max-width: 480px) {
+  .trusted__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    position: relative;
+    top: 100px;
+  }
+}
+
+.trusted__imgs {
+  margin-bottom: 100px;
+  max-width: 597px;
+}
+
+@media screen and (max-width: 480px) {
+  .trusted__imgs {
+    width: 353px;
+    height: 462px;
+    margin: 0 31px;
+  }
+}
+
+.trusted__row {
+  margin-left: 121px;
+}
+
+@media screen and (max-width: 480px) {
+  .trusted__row {
+    margin-left: 0;
+  }
+}
+
+.trusted__rowtitle {
+  margin-top: 40px;
+  max-width: 324px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+@media screen and (max-width: 480px) {
+  .trusted__rowtitle {
+    width: 324px;
+    position: relative;
+  }
+}
+
+.trusted__rowtext {
+  max-width: 330px;
+  margin-bottom: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.trusted__col {
+  display: flex;
+}
+
+.trusted__colimg {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.trusted__coltitle {
+  margin-left: 21px;
+  margin-bottom: 30px;
+}
+
+.trusted__coltitlee {
+  max-width: 287px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.trusted__coltext {
+  max-width: 222px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
